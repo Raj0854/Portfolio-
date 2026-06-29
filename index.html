@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raj Gupta— Full-Stack Developer</title>
+<meta name="description" content="Raj Gupta — Full-Stack Developer. Building fast, reliable, beautiful websites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="ambient">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="orb orb-4"></div>
+</div>
+<div class="grain"></div>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<div class="preloader" id="preloader">
+  <div class="preloader-mark">
+    <div class="preloader-tag">&lt;RG/&gt; loading portfolio</div>
+    <div class="preloader-bar"><span></span></div>
+  </div>
+</div>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">RG</a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <!-- <a href="#experience">Experience</a> -->
+      <a href="#contact" class="nav-cta">Let's talk</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#work">Work</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <!-- <a href="#work">Projects</a> -->
+  <a href="#contact" class="nav-cta">Let's talk</a>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-text reveal is-visible">
+      <div class="eyebrow">&lt;available for new projects /&gt;</div>
+      <h1>Crafting <em>reliable websites</em> with obsessive attention to detail.</h1>
+      <p>I'm Raj Gupta, a full-stack developer who builds performant websites, scalable backends, and interfaces that feel as good as they look. Currently based in Virar, learning with Keerti institute.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">
+          View My Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#" class="btn btn-ghost">
+          Download Resume
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v12"/><polyline points="7 11 12 16 17 11"/><path d="M5 21h14"/></svg>
+        </a>
+      </div>
+      <!-- <div class="hero-stats">
+        <div><strong>5+</strong><span>Years Experience</span></div>
+        <div><strong>40+</strong><span>Projects Shipped</span></div>
+        <div><strong>98%</strong><span>Client Satisfaction</span></div>
+      </div> -->
+    </div>
+
+    <div class="id-card-wrap">
+      <div class="id-card" id="idCard">
+        <div class="float-chip chip-1"><span class="dot"></span>Python</div>
+        <div class="float-chip chip-2"><span class="dot"></span>JavaScript</div>
+        <div class="float-chip chip-3"><span class="dot"></span>Django</div>
+
+        <div class="id-row-top">
+          <div class="id-chip"></div>
+          <div class="id-status">ONLINE</div>
+        </div>
+        <div class="id-avatar">RG</div>
+        <div class="id-name">Raj Gupta</div>
+        <div class="id-role">Full-Stack Developer</div>
+        <div class="id-divider"></div>
+        <!-- <div class="id-meta">
+          <span>ID · 2026</span>
+          <span>SF, CA</span>
+        </div> -->
+        <div class="id-barcode"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span>SCROLL</span>
+    <span class="line"></span>
+  </div>
+</section>
+
+<!-- ===================== MARQUEE ===================== -->
+<section class="marquee-section">
+  <div class="marquee-mask">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="tech-pill">JavaScript</div>
+      <!-- <div class="tech-pill">React</div> -->
+      <div class="tech-pill">Python</div>
+      <div class="tech-pill">MySQL</div>
+      <div class="tech-pill">Bootstrap CSS</div>
+      <div class="tech-pill">HTML</div>
+      <div class="tech-pill">Git</div>
+      <div class="tech-pill">GitHub</div>
+      <div class="tech-pill">Django</div>
+      <div class="tech-pill">MongoDB</div>
+      <div class="tech-pill">JavaScript</div>
+      <!-- <div class="tech-pill">React</div> -->
+      <div class="tech-pill">Python</div>
+      <div class="tech-pill">MySQL</div>
+      <div class="tech-pill">Bootstrap CSS</div>
+      <div class="tech-pill">Django</div>
+      <div class="tech-pill">MongoDB</div>
+      <div class="tech-pill">Git</div>  
+      <div class="tech-pill">Python</div>
+      <div class="tech-pill">MySQL</div>
+      <div class="tech-pill">Bootstrap CSS</div>
+      <div class="tech-pill">HTML</div>
+      <div class="tech-pill">Git</div>
+      <div class="tech-pill">GitHub</div>
+      <div class="tech-pill">Django</div>
+      <div class="tech-pill">MongoDB</div>
+      <div class="tech-pill">JavaScript</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-card glass reveal">
+      <div class="id-avatar">RG</div>
+      <h4>Raj Gupta</h4>
+      <p>Full-Stack Developer</p>
+      <div class="about-tags">
+        <span>Open to work</span>
+        <span>Remote friendly</span>
+      </div>
+    </div>
+
+    <div class="about-text reveal reveal-delay-1">
+      <div class="eyebrow">&lt;about me /&gt;</div>
+      <h2 class="section-title">Turning complex ideas into elegant websites.</h2>
+      <p>I've spent the last <strong>1 years</strong> designing and building products for startups and growing teams — everything from real-time dashboards to e-commerce platforms serving thousands of users a day.</p>
+      <p>I care about <strong>performance, clean architecture, and the small details</strong> that make websites feel trustworthy. When I'm not writing code, I'm usually exploring new frameworks, contributing to open source, or mentoring junior developers.</p>
+      <div class="stat-row">
+        <!-- <div class="stat-card glass">
+          <strong data-count="5" data-suffix="+">0</strong>
+          <span>Years Experience</span>
+        </div> -->
+        <div class="stat-card glass">
+          <strong data-count="6" data-suffix="+">0</strong>
+          <span>Projects Build</span>
+        </div>
+        <div class="stat-card glass">
+          <strong data-count="5" data-suffix="+">0</strong>
+          <span>Technologies</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="skills" id="skills">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center;">&lt;tech stack /&gt;</div>
+      <h2 class="section-title">What I work with</h2>
+      <p class="section-sub">A toolkit refined across  production websites — chosen for speed, reliability, and developer experience.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card glass tilt reveal">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h4>Frontend</h4>
+        <div class="skill-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+          
+        </div>
+      </div>
+
+      <div class="skill-card glass tilt reveal reveal-delay-1">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 17V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10"/><path d="M2 17h20l-2 4H4l-2-4Z"/></svg>
+        </div>
+        <h4>Backend</h4>
+        <div class="skill-tags">
+          <span>JavaScript</span><span>Python</span><span>Django</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass tilt reveal reveal-delay-2">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+        </div>
+        <h4>Database </h4>
+        <div class="skill-tags">
+          <span>MySQL</span><span>MongoDB</span>
+        </div>
+      </div>
+
+      <div class="skill-card glass tilt reveal reveal-delay-3">
+        <div class="skill-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>
+        </div>
+        <h4>Tools &amp; Practice</h4>
+        <div class="skill-tags">
+          <span>Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="projects" id="work">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">&lt;selected work /&gt;</div>
+      <h2 class="section-title">Recent projects</h2>
+      <p class="section-sub">A few of the products I've designed, built, and shipped end to end.</p>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card glass tilt reveal">
+        <div class="project-screen">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="project-mesh mesh-1">
+            
+          </div>
+        </div>
+        <div class="project-body">
+          <h4>SpiceGarden</h4>
+          <p>A demo websites for the restorant and hotels with menu and gallery pictures section and responsive layouts</p>
+          <div class="project-tags"><span>Html</span><span>CSS </span><span>JavaScript</span></div>
+          <div class="project-links">
+            <a href="https://spice-garden-nine-tau.vercel.app/" target="_blank" aria-label="Live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            <a href="https://github.com/Raj0854/SpiceGarden"target="_blank"  aria-label="Source code"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass tilt reveal reveal-delay-1">
+        <div class="project-screen">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="project-mesh mesh-2"></div>
+        </div>
+        <div class="project-body">
+          <h4>E-Commerce</h4>
+          <p>A headless storefront powering a multi-brand e-commerce experience with  category filters features .</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="project-links">
+            <a href=" https://raj0854.github.io/E-commerce-store/" target="_blank" aria-label="Live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            <a href="https://github.com/Raj0854/E-commerce-store" target="_blank" aria-label="Source code"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass tilt reveal reveal-delay-2">
+        <div class="project-screen">
+          <div class="browser-dots"><span></span><span></span><span></span></div>
+          <div class="project-mesh mesh-3"></div>
+        </div>
+        <div class="project-body">
+          <h4>The learning hub</h4>
+          <p>A demo platform for class and institutions with  login and registrations features.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span> <SPan>JavaScript</SPan><SPAN>Django</SPAN></div>
+          <div class="project-links">
+            <a href="https://raj0854.github.io/The-Learning-Hub/" target="_blank" aria-label="Live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            <a href="https://github.com/Raj0854/The-Learning-Hub" target="_blank" aria-label="Source code"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-more reveal">
+      <a href="https://github.com/Raj0854?tab=repositories" target="_blank" class="btn btn-ghost">
+        View All Projects
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="process">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center;">&lt;how I build /&gt;</div>
+      <h2 class="section-title">From idea to production</h2>
+      <p class="section-sub">A simple, repeatable process that keeps every project moving without surprises.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-line"></div>
+      <div class="process-step glass reveal">
+        <div class="process-num">01</div>
+        <h4>Discover</h4>
+        <p>Understand the goals, constraints, and users behind the project before a single line of code is written.</p>
+      </div>
+      <div class="process-step glass reveal reveal-delay-1">
+        <div class="process-num">02</div>
+        <h4>Design</h4>
+        <p>Map the architecture and interface together, so technical decisions and user experience stay aligned.</p>
+      </div>
+      <div class="process-step glass reveal reveal-delay-2">
+        <div class="process-num">03</div>
+        <h4>Develop</h4>
+        <p>Build in small, tested increments with frequent check-ins — no surprises at the end of the sprint.</p>
+      </div>
+      <div class="process-step glass reveal reveal-delay-3">
+        <div class="process-num">04</div>
+        <h4>Deploy</h4>
+        <p>Ship with monitoring, documentation, and a plan for what comes after launch day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE ===================== -->
+<!-- <section class="experience" id="experience">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center;">&lt;experience /&gt;</div>
+      <h2 class="section-title">Where I've worked</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <span class="tl-dot"></span>
+        <div class="tl-card glass">
+          <span class="tl-date">2023 — Present</span>
+          <h4>Senior Websites Engineer</h4>
+          <span class="tl-company">Nova Labs</span>
+          <p>Leading the platform team building real-time data infrastructure used by 200+ enterprise clients.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal reveal-delay-1">
+        <span class="tl-dot"></span>
+        <div class="tl-card glass">
+          <span class="tl-date">2021 — 2023</span>
+          <h4>Full-Stack Developer</h4>
+          <span class="tl-company">Brightwave</span>
+          <p>Shipped the company's flagship dashboard product from prototype to 10k+ active users.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal reveal-delay-2">
+        <span class="tl-dot"></span>
+        <div class="tl-card glass">
+          <span class="tl-date">2019 — 2021</span>
+          <h4>Frontend Engineer</h4>
+          <span class="tl-company">Studio Pixel</span>
+          <p>Built design-system-driven interfaces for clients across fintech, health, and education.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal reveal-delay-3">
+        <span class="tl-dot"></span>
+        <div class="tl-card glass">
+          <span class="tl-date">2018 — 2019</span>
+          <h4>Junior Developer</h4>
+          <span class="tl-company">CodeForge</span>
+          <p>Started my career building internal tools and learning the fundamentals of production Websites.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<!-- <section class="testimonials">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center;">&lt;testimonials /&gt;</div>
+      <h2 class="section-title">What people say</h2>
+    </div>
+
+    <div class="test-track-wrap">
+      <div class="test-track" id="testTrack">
+        <div class="test-card glass">
+          <svg class="test-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 7C6.5 7 4 9.5 4 12.5S6.5 18 9.5 18c0-3 0-5.5-2-7.5 1-1.5 2-2.5 2-3.5zM19 7c-3 0-5.5 2.5-5.5 5.5S16 18 19 18c0-3 0-5.5-2-7.5 1-1.5 2-2.5 2-3.5z"/></svg>
+          <p>Aiden took a vague idea and turned it into a polished product in weeks, not months. The attention to detail was obvious from day one.</p>
+          <div class="test-person">
+            <div class="test-avatar">JM</div>
+            <div><strong>Jordan Marsh</strong><span>Product Manager, Nova Labs</span></div>
+          </div>
+        </div>
+        <div class="test-card glass">
+          <svg class="test-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 7C6.5 7 4 9.5 4 12.5S6.5 18 9.5 18c0-3 0-5.5-2-7.5 1-1.5 2-2.5 2-3.5zM19 7c-3 0-5.5 2.5-5.5 5.5S16 18 19 18c0-3 0-5.5-2-7.5 1-1.5 2-2.5 2-3.5z"/></svg>
+          <p>One of the rare engineers who thinks about both the backend architecture and how a button should feel when you click it.</p>
+          <div class="test-person">
+            <div class="test-avatar">SK</div>
+            <div><strong>Sara Klein</strong><span>Founder, Aurora Commerce</span></div>
+          </div>
+        </div>
+        <div class="test-card glass">
+          <svg class="test-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 7C6.5 7 4 9.5 4 12.5S6.5 18 9.5 18c0-3 0-5.5-2-7.5 1-1.5 2-2.5 2-3.5zM19 7c-3 0-5.5 2.5-5.5 5.5S16 18 19 18c0-3 0-5.5-2-7.5 1-1.5 2-2.5 2-3.5z"/></svg>
+          <p>Calm under pressure, communicates clearly, and ships on time. Honestly hard to find all three in one person.</p>
+          <div class="test-person">
+            <div class="test-avatar">DT</div>
+            <div><strong>Daniel Tran</strong><span>CTO, Brightwave</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="test-controls">
+      <button id="testPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <button id="testNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+    </div>
+  </div>
+</section> -->
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-card glass reveal">
+      <div class="contact-left">
+        <div class="eyebrow">&lt;get in touch /&gt;</div>
+        <h3>Let's build something great together.</h3>
+        <p>Have a project in mind, or just want to talk shop? My inbox is always open — I usually reply within a day.</p>
+        <div class="contact-socials">
+          <a href="https://github.com/Raj0854" target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          <a href="https://www.linkedin.com/in/raj-gupta-4b1641363/" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1.5A4 4 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" target="_blank" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C4 16 2.4 13.5 2.4 11c1.1.7 2.4 1.1 3.6 1.1C2.7 9.8 1.9 5.6 4 3c2.3 2.7 5.7 4.4 9.4 4.6-.9-4 3.4-6.5 6-3.9 1.2 0 2.3-.5 3.6-1.2-.4 1.4-1.3 2.5-2.4 3.2 1.1-.1 2.1-.4 2.4-.7-.6 1-1.4 1.9-2.3 2.6z"/></svg></a>
+          <a href="mailto:rajgupta.02.0854@gmail.com"target="_blank"  aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 6 12 13 2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="cf-name">NAME</label>
+          <input type="text" id="cf-name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="cf-email">EMAIL</label>
+          <input type="email" id="cf-email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="cf-message">MESSAGE</label>
+          <textarea id="cf-message" rows="4" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Send Message
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <p>&copy; 2026 Raj Gupta. Built with HTML, CSS &amp; JS.</p>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+    </button>
+  </div>
+</footer>
+
+<div class="toast" id="toast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+  <span id="toastText">Message sent — I'll reply soon!</span>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
